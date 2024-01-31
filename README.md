@@ -10,6 +10,9 @@
 
 Traefik provides dynamic configuration and service discovery capabilities, compared to Nginx’s static configuration files requiring manual updates for routing traffic.
 
+Schema of configuration:
+![Untitled](https://doc.traefik.io/traefik/assets/img/static-dynamic-configuration.png)
+
 ## Why traefik is the best solution?
 
 1. Traefik deployment is also k8s operator, therefore you can configure it as yaml [convenient Custom Resources](https://doc.traefik.io/traefik/middlewares/http/stripprefixregex/#configuration-examples).
